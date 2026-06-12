@@ -1,0 +1,23 @@
+========================================
+LOG ANALYSIS REPORT
+========================================
+Date of Analysis : 2026-06-05
+Log File         : sample_log.log
+Total Lines      : 69
+Total Errors     : 60
+
+Top 5 Error Messages
+--------------------
+     14 Connection timed out connecting to db-master
+      9 File not found: /var/log/messages
+      6 Permission denied accessing /etc/shadow
+      6 Disk I/O error on /dev/sdb
+      1 Unable to handle kernel NULL pointer dereference at virtual address 00000000
+
+Critical Events
+---------------
+5:Jun  1 06:20:11 combo kernel: CRITICAL Disk space below threshold on /dev/sda1
+20:Jun  1 07:11:22 combo kernel: CRITICAL Database connection lost to db-master:5432
+33:Jun  1 07:24:44 combo kernel: CRITICAL Memory usage exceeded 95% threshold
+47:Jun  1 07:38:22 combo kernel: CRITICAL Swap space exhausted on node-03
+57:Jun  1 07:48:00 combo kernel: CRITICAL NFS mount point /mnt/data is unresponsive
