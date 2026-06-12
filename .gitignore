@@ -1,0 +1,5 @@
+# Generated files
+archive/
+*.log
+log_report_*.txt
+test.txt
